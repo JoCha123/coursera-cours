@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #ECEBEB;
+  font-family: sans-serif;
+}
+/** HEADER **/
+#header-nav {
+  background-color: grey;
+  border-radius: 0;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: serif;
+  color: black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid white;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: white;
+  color: black;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+/** MAIN CONTENT **/
+.main-content {
+  color: black;
+}
+div .container{
+    width: 100%;
+    position: relative;
+}
+div .col-md-4 {
+  border:2px solid black;
+}
+div #main-title{
+  color: black;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 25px;
+}
+div h2{
+  font-weight: bold;
+}
+div #box{
+  color:black;
+}
+section {
+  background-color: grey;
+  padding-right:10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+ div .title-box {
+  font-weight: bold;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+section a {
+  text-decoration: none;
+  color:black;
+}
+div section a:hover {
+  background-color: :white;
+  text-decoration: none;
+  color: white;
+}
+div #box .col-md-4{
+  border:2px solid black;
+  clear:left;
+}
