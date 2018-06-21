@@ -7,15 +7,21 @@ body {
   font-size: 16px;
   color: #fff;
   background-color: #ECEBEB;
-  font-family: sans-serif;
+  font-family: 'Fredoka One', cursive;
 }
 /** HEADER **/
+.navbar{
+  margin-bottom: 0px;
+}
+#header-nav .container{
+  margin-bottom: 0px;
+}
 #header-nav {
   background-color: grey;
   border-radius: 0;
 }
 .navbar-brand h1 { /* Restaurant name */
-  font-family: serif;
+  font-family: 'Fredoka One', cursive;
   color: black;
   font-size: 1.5em;
   text-transform: uppercase;
@@ -45,14 +51,19 @@ body {
 #nav-list a span {
   font-size: 1.8em;
 }
-/** MAIN CONTENT **/
+/******************** MAIN CONTENT ********************/
 .main-content {
   color: black;
 }
 div .container{
-    width: 100%;
     position: relative;
 }
+.row {
+    width: 100%;
+    background-color: blue;
+    margin:0;
+}
+
 div .col-md-4 {
   border:2px solid black;
 }
